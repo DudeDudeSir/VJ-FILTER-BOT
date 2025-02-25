@@ -11,8 +11,8 @@ id_pattern = re.compile(r'^.\d+$')
 
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
-API_ID = int(environ.get('API_ID', '3687968'))
-API_HASH = environ.get('API_HASH', '841fc07beb843eabf936acd8701ddf27')
+API_ID = int(environ.get('API_ID', '20285891'))
+API_HASH = environ.get('API_HASH', '91cc4499bae62106f16024cfa45fa2b3')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
@@ -59,8 +59,8 @@ DELETE_CHANNELS = [int(dch) if id_pattern.search(dch) else dch for dch in enviro
 
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://godplan:godplan@cluster0.5i4ua.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
-DATABASE_NAME = environ.get('DATABASE_NAME', "godplan")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://much:much@cluster0.dcak4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")   # IF Multiple Database Is False Then Fill Only This Database Url.
+DATABASE_NAME = environ.get('DATABASE_NAME', "much")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'vjcollection')
 
 MULTIPLE_DATABASE = bool(environ.get('MULTIPLE_DATABASE', False)) # Set True or False
